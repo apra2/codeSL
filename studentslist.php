@@ -13,7 +13,6 @@ if (isset($_GET['id']))
 }
 $data= getAllStudents();
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>

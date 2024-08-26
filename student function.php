@@ -17,7 +17,8 @@
             } else {
                 return false;
             }
-        } catch (Exception $ex) {
+        } catch (Exception $ex) 
+        {
             die('Error: ' . $ex->getMessage());
         }
     }

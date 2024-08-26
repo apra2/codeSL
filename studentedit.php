@@ -116,7 +116,6 @@
                     <input type="date" id="dob" name="dob" value="<?php echo isset($dob) ? $dob : ''; ?>">
                     <span id="dobError" class="error"><?php echo isset($error['dob']) ? $error['dob'] : ''; ?></span>
                     <br>
-
                     <label for="status">Status:</label>
                     <input type="radio" id="status-present" name="status" value="present" <?php echo (isset($status) && $status == 'present') ? 'checked' : ''; ?>>Present
                     <input type="radio" id="status-absent" name="status" value="absent" <?php echo (isset($status) && $status == 'absent') ? 'checked' : ''; ?>>Absent
