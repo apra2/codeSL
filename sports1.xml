@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="sports1.xsl"?>
+<sports>
+  <cricket pno="45">
+    <name>Rohit</name>
+    <hundreds>10</hundreds>
+    <fifties>56</fifties>
+    <wicket>12</wicket>
+  </cricket>
+  <cricket pno="25">
+    <name>Sompal</name>
+    <hundreds>12</hundreds>
+    <fifties>41</fifties>
+    <wicket>120</wicket>
+  </cricket>
+  <cricket pno="23">
+    <name>Lalit</name>
+    <hundreds>2</hundreds>
+    <fifties>5</fifties>
+    <wicket>98</wicket>
+  </cricket>
+</sports>

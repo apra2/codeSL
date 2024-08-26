@@ -1,0 +1,73 @@
+
+-Methods for fetching data from database
+        fetch_assoc()
+        fetch_array()
+        fetch_object()
+        fetch_list()
+
+        -CRUD opration(insert,edit,update,select)
+
+
+                    mysqli: 
+                    function
+                    object oriented
+
+                    PDO: php Data object (common interface, more secure)
+
+                    mysql: function/ procedure ( no use)
+
+                    $connection object ( it can be changed)
+                    local host. root, "  database ko nam 
+
+                    insert, update, delete
+                    affected rows:(how many rows are affected)
+                    insert id: ( if we have auto incearmet id 1)
+                    connect_error (connect vayo ki nai0 connect vako xavani 0 hunxa natra  there are many error codes)
+
+
+
+
+
+                    case 4: above nested function return data handling is possible with async/await
+                    lets create new asynchronous function and calll above nested function block
+                 async fucntion displayData()
+                 {
+                        let result=await namePrint3("you are resolve");
+                        console.log(result);
+                 }
+                 displayData(); // asynchronous fucntion call gareko // output: you are resolve
+
+
+
+                 ==============================
+
+       data from euta page bata arko page ma lana paryo vani
+                 1. form action
+                 2. URL
+
+                 =============================
+
+
+                 Data lai (server ma store): session [used  in login page]
+                 Data lai (client side/ browser  ma store): cookies (js) :
+                        Dark theme, temporary store
+                 accessible in all php
+
+
+Super  Global variables
+$_SERVER
+$_REQUEST
+$_GLOBALS
+$_GET
+$_POST
+$_SESSION  : Session Expired, login
+$_COOKIE    : Dark theme, Remember me
+
+HTTP : stateless protocol
+  Useful functions in php
+  
+1.require
+2.require_once
+3.include
+4.include_once
+

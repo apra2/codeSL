@@ -1,0 +1,32 @@
+
+    .form-group {
+        background-color: rgb(225, 225, 87);
+        width: 40%;
+        padding:50px;
+        border: 5px solid #111010;
+        border-radius: 5px;
+        background-image: url(https://image.slidesdocs.com/responsive-images/docs/vintage-blank-paper-word-template_efc9cb4ef7__1131_1600.jpg) ;
+    }
+    input, select {
+        border: 2px solid #746565;
+        padding: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    fieldset {
+        border: 5px solid #ab0b0b;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    legend
+     {
+        font-weight:bolder;
+        font-family: cursive;
+        color:rgb(202, 10, 10);
+    }
+    button
+    {
+        border:5px solid green;
+        padding: 5px 5px ;
+        background-color: rgb(222, 211, 197);
+    }
